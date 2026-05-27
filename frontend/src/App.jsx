@@ -72,7 +72,7 @@ function App() {
 
       const response = await axios.post(
 
-        "http://127.0.0.1:8000/analyze",
+        "http://65.0.185.242:8000/analyze",
 
         formData,
 
