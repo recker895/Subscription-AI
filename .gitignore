@@ -5,7 +5,7 @@ temp/
 output/
 .env
 *.csv
-*.json
+
 data/
 dist/
 build/
