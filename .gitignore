@@ -1,0 +1,11 @@
+venv/
+node_modules/
+__pycache__/
+temp/
+output/
+.env
+*.csv
+*.json
+data/
+dist/
+build/
