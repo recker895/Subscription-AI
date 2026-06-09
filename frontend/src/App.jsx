@@ -314,7 +314,7 @@ function App() {
     formData.append("file", file)
     try {
       setLoading(true)
-      const response = await axios.post("http://65.0.185.242:8000/analyze", formData, {
+      const response = await axios.post("https://mysubscriptionai.space/analyze", formData, {
         headers: { "Content-Type": "multipart/form-data" }
       })
       setResult(response.data)
